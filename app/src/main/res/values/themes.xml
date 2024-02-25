@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyQuizApp" parent="Theme.Material3.DayNight.NoActionBar">//for no action bar
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:windowFullscreen">true</item>//added for fullscreen
+    </style>
+
+    <style name="Theme.MyQuizApp" parent="Base.Theme.MyQuizApp" />
+
+</resources>
